@@ -1,6 +1,5 @@
 import { UserBody } from "../controllers/userController";
 
-import { UserBody } from "../controllers/userController";
 
 // ❌ BAD: using any
 const users: any = [
