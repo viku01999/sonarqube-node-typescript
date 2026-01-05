@@ -1,0 +1,29 @@
+{
+  "name": "sonarqube-node-typescript",
+  "version": "1.0.0",
+  "description": "This repository tracks my structured journey to master **SonarQube** for **Node.js & TypeScript projects** running on **Ubuntu 25**.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viku01999/sonarqube-node-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/viku01999/sonarqube-node-typescript/issues"
+  },
+  "homepage": "https://github.com/viku01999/sonarqube-node-typescript#readme",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

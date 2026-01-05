@@ -342,3 +342,28 @@ Make quality a habit.
 - Consistency > speed
 
 ---
+
+## Flow chart
+
+```mermaid
+flowchart TD
+    A["👨‍💻 Developer Writes Code"] --> B["🔍 SonarScanner Runs"]
+    B --> C["🧠 SonarQube Analysis"]
+    C --> D{"⚠️ Issues Found?"}
+
+    D -- "Yes" --> E["🐞 Bug / 🧹 Code Smell / 🔐 Security"]
+    E --> F["📊 Issue Appears on Dashboard"]
+    F --> G["🚫 Quality Gate FAIL"]
+
+    D -- "No" --> H["🎉 Quality Gate PASS"]
+
+    style A fill:#E3F2FD,color:#0D47A1,stroke:#0D47A1
+    style B fill:#E8F5E9,color:#1B5E20,stroke:#1B5E20
+    style C fill:#FFFDE7,color:#F57F17,stroke:#F57F17
+    style D fill:#FFF3E0,color:#E65100,stroke:#E65100
+    style E fill:#FFEBEE,color:#B71C1C,stroke:#B71C1C
+    style F fill:#F3E5F5,color:#4A148C,stroke:#4A148C
+    style G fill:#FBE9E7,color:#BF360C,stroke:#BF360C
+    style H fill:#E0F2F1,color:#004D40,stroke:#004D40
+
+
