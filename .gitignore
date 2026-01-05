@@ -1,3 +1,14 @@
+# Node modules
 node_modules/
-.vscode/
+
+# TypeScript build output
 dist/
+
+# SonarQube scanner cache
+.scannerwork/
+
+# VS Code workspace settings
+.vscode/
+
+# Logs
+*.log
